@@ -13,7 +13,7 @@ export default createStore({
     cart: cart ? JSON.parse(cart) : [],
     serviceCart: serviceCart ? JSON.parse(serviceCart) : [],
     loading: false,
-    baseUrl: "https://adm.medianesta.com/",
+    baseUrl: "https://sparkfilter.dev/",
     settings: null,
   },
 
